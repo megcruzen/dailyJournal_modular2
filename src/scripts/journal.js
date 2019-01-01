@@ -5,3 +5,17 @@
     Change the fake variable names below to what they should be
     to get the data and display it.
 */
+
+// objectWithGetterMethod.methodToGetData().then(functionThatRendersData)
+
+// data.getJournalEntries()
+// .then(functionThatRendersData)
+
+
+// data.JournalEntries()
+// .then(resourcesArray => {
+//   console.log(resourcesArray);
+//   let resourcesFragments = domComponents.createResourcesDocumentFragments(resourcesArray);
+//   console.log(resourcesFragments);
+//   domBuilder.appendAllResources(resourcesFragments);
+// });
