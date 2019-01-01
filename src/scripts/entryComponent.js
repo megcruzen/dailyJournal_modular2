@@ -21,12 +21,21 @@ const entryComponent = {
 
         API.getJournalEntries()
         .then(entriesArray => {
-            console.log(entriesArray);
+            // console.log(entriesArray);
+            entriesArray.forEach(entryObj => {
+                console.log(entryObj.date);
+                entryContainer.innerHTML += entriesDOM.renderJournalEntries(entryObj.date, entryObj.concept, entryObj.entry, entryObj.mood);
+                console.log(entryContainer);
+              });
           });
+
+        return entryContainer;
+
+        // console.log(entryContainer);
     }
 }
 
 // Now we call the function to add the HTML into the DOM.
-entryComponent.createAndAppend();
+// entryComponent.createAndAppend();
 
 // ^^^^^^ This will add data that *currently* exists in the array. New data will be added when you CLICK.

@@ -8,8 +8,9 @@
 
 // objectWithGetterMethod.methodToGetData().then(functionThatRendersData)
 
-// data.getJournalEntries()
-// .then(functionThatRendersData)
+API.getJournalEntries()
+.then(entryComponent.createAndAppend());
+
 
 
 // data.JournalEntries()
