@@ -1,0 +1,25 @@
+{
+    "entries": [
+        {
+            "date": "07/24/2018",
+            "concept": "Array methods",
+            "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
+            "mood": "Ok",
+            "id": 1
+        },
+        {
+            "date": "10/26/2018",
+            "concept": "Concept name",
+            "entry": "We learned about ---.",
+            "mood": "Overwhelmed",
+            "id": 2
+        },
+        {
+            "date": "10/28/2018",
+            "concept": "Concept name",
+            "entry": "We learned about ---.",
+            "mood": "A bit lost",
+            "id": 3
+        }
+    ]
+}
