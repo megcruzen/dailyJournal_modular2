@@ -36,7 +36,8 @@ const entriesDOM = {
     },
     // Function that create HTML structure for each entry
     renderJournalEntries (date, concept, entry, mood) {
-        `<div id="journalEntryContainer">
+        return `
+        <div id="journalEntryContainer">
             <h1 class="title">Concept(s): ${concept}</h1>
             <section class="date">${date}</section>
             <section class="content">${entry}</section>
